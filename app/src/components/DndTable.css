@@ -1,0 +1,27 @@
+.AcceptBtn{
+    background-color: rgb(23, 194, 23);
+    color: white;
+    margin-right: 10px;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.AcceptBtn:hover { 
+    background-color: rgb(17, 92, 17);
+}
+
+.RejectBtn{
+    background-color: rgb(238, 42, 42);
+    color: white;
+    height: 40px;
+    width: 70px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+.RejectBtn:hover { 
+    background-color: rgb(92, 17, 21);
+}

@@ -1,0 +1,101 @@
+.files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 120px 0px 85px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.files {
+  position: relative;
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: '';
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  background: #e9f0fc;
+  /* background-color: radial-gradient(
+    circle,
+    rgba(155, 194, 240, 1) 0%,
+    rgba(155, 194, 240, 0.5910073502057073) 100%
+  ); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background {
+  height: 100%;
+  /* background: rgb(155,194,240);
+  background-color: radial-gradient(circle, rgba(155,194,240,1) 0%, rgba(155,194,240,0.5910073502057073) 100%);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.background1 {
+  /* background: 1px rgb(183, 216, 253);
+	margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom: 2%;
+	box-shadow: 8px 8px rgb(146, 198, 228); */
+}
+
+.coursesDropdown {
+  height: 120px;
+  width: 550px;
+}
+
+.table {
+  width: 75%;
+}
+
+.TableBackground {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 100%;
+}

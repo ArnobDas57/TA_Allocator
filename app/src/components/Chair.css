@@ -1,0 +1,153 @@
+files input {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  padding: 120px 0px 85px 35%;
+  text-align: center !important;
+  margin: 0;
+  width: 100% !important;
+}
+.files input:focus {
+  outline: 2px dashed #92b0b3;
+  outline-offset: -10px;
+  -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+  transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+  border: 1px solid #92b0b3;
+}
+.files {
+  position: relative;
+}
+.files:after {
+  pointer-events: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 50px;
+  right: 0;
+  height: 56px;
+  content: '';
+  background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+  display: block;
+  margin: 0 auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.color input {
+  background-color: #f1f1f1;
+}
+.files:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  right: 0;
+  height: 57px;
+  display: block;
+  margin: 0 auto;
+  color: #2ea591;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.calcHours {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  background-color: #e41150;
+  border-radius: 3px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #3a8a9e;
+  width: 525px;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.calcHours:hover {
+  background-color: #660925;
+}
+
+#view2 {
+  display: none;
+}
+
+.Match {
+  background-color: #e41150;
+  border-radius: 3px;
+  border: 1px solid #d6bcd6;
+  cursor: pointer;
+  display: block;
+  color: #3a8a9e;
+  width: 350px;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 13px 25px;
+  text-decoration: none;
+  color: white;
+  float: right;
+  text-align: center;
+}
+
+.Match:hover {
+  background-color: #660925;
+}
+
+.Dropdown {
+  float: left;
+  display: block;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 0.5em;
+}
+
+ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.courseFields {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+/* Slider CSS */
+.courseForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.courseSlider {
+  padding: 1rem;
+  margin: 0 1rem;
+  width: 50%;
+}
+
+.courseButton {
+  display: flex;
+  justify-content: center;
+}

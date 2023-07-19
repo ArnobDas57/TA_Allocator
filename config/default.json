@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://dbUser:3350CourseApp@cluster0.4rf7t.mongodb.net/3350?retryWrites=true&w=majority",
+    "jwtSecret": "3350CourseApp"
+}
